@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+/* ===== HEADER ========== */
+header, 
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+header > div {
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+header #logo,
+header h1 {
+    color: #F9FAF8;
+}
+
+header li,
+footer {
+    color: #E5E7EB;
+}
+
+header #logo {
+    font-size: 24px;
+}
+
+header ul {
+    font-size: 18px;
+    margin: 5px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+header .main-img {
+    width: 300px;
+    height: 100px;
+    background-color: #606163;
+    margin: 10px 0;
+    padding: 40px 20px;
+}
+
+/* ===== MAIN ========== */
+section.info, 
+section.quote, 
+section.cta {
+    padding: 20px;
+}
+
+section.info, 
+section.quote {
+    color: #1F2937;
+}
+
+/* === Section 1 - Info === */
+section.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.card .illustration {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 10%;
+}
+
+/* === Section 2 - Quote === */
+section.quote {
+    background-color: #E5E7EB; 
+}
+
+section.quote p:first-child{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+section.quote p:last-child{
+    font-weight: bold;
+}
+
+/* === Section 3 - CTA === */
+section.cta {
+    padding: 20px;
+}
+
+section.cta > div, 
+button {
+    background-color: #3882F6;
+}
+
+section.cta > div, 
+section.cta button {
+    color: #E5E7EB;
+}
+
+section.cta > div {
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+button {
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+/* ===== FOOTER ========== */
+footer {
+    padding: 20px;
+    text-align: center;
+}
