@@ -13,7 +13,7 @@ footer {
 }
 
 header > div {
-    width: 500px;
+    width: 920px;
     margin: 0 auto;
     padding-bottom: 5px;
 }
@@ -23,18 +23,36 @@ header h1 {
     color: #F9FAF8;
 }
 
-header li,
+nav ul,
+button,
 footer {
     color: #E5E7EB;
 }
 
-header #logo {
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+#logo {
     font-size: 24px;
 }
 
-header ul {
+nav ul {
     font-size: 18px;
-    margin: 5px 20px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
 }
 
 header h1 {
@@ -42,13 +60,26 @@ header h1 {
     font-weight: bolder;
 }
 
-header .main-img {
-    width: 300px;
-    height: 100px;
-    background-color: #606163;
-    margin: 10px 0;
-    padding: 40px 20px;
+.main-img {
+    width: 800px;
+    height: 250px;
+    background-color: #616979;
+    margin: 0 0 0 10px;
+    padding: 100px 100px;
 }
+
+button {
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom-header button {
+    border: 1px solid #3882F6;
+}
+/* ===== END HEADER ===== */
 
 /* ===== MAIN ========== */
 section.info, 
@@ -110,11 +141,8 @@ section.cta > div {
     border-radius: 10px;
 }
 
-button {
+.cta button {
     border: 1px solid #F9FAF8;
-    border-radius: 10px;
-    padding: 10px 20px;
-    margin: 10px 0;
 }
 
 /* ===== FOOTER ========== */
