@@ -151,23 +151,33 @@ section.cta {
     padding: 20px;
 }
 
-section.cta > div, 
+.cta > div, 
 button {
     background-color: #3882F6;
 }
 
-section.cta > div, 
-section.cta button {
+.cta > div, 
+.cta button {
     color: #E5E7EB;
 }
 
-section.cta > div {
-    padding: 20px 40px;
+.cta > div {
     border-radius: 10px;
+    width: 920px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    font-size: 18px;
 }
 
 .cta button {
-    border: 1px solid #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
+
+.cta strong {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 /* ===== FOOTER ========== */
