@@ -124,20 +124,26 @@ section.quote {
     text-align: center;
 }
 
-
 /* === Section 2 - Quote === */
-section.quote {
+.quote {
     background-color: #E5E7EB; 
 }
 
-section.quote p:first-child{
+.quote figure {
+    width: 790px;
+    margin: 50px auto;
+}
+
+.quote blockquote{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
 }
 
-section.quote p:last-child{
+.quote figcaption{
     font-weight: bold;
+    text-align: end;
+    font-size: 18px;
 }
 
 /* === Section 3 - CTA === */
